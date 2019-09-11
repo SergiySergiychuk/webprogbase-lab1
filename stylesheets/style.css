@@ -51,11 +51,29 @@ body {
 }
 
 #users_table th {
-    border: 0.5px solid black;
-    padding: 8px;
+    border: 5px solid black;
+    color: white;
+    /* padding: 8px; */
 }
 
-#customers td,
-#customers th {
-    border-spacing: 10px;
+#users_table {
+    border-collapse: collapse;
+    margin-top: 1%;
+    margin-left: 1%;
+    align-self: auto;
+    width: 98%;
+    height: 88%;
+}
+
+#user_table_block {
+    width: 82%;
+    height: 200px;
+    background-color: rgb(209, 59, 59);
+    float: right;
+    vertical-align: 0%
+}
+
+#user_link {
+    text-decoration: none;
+    color: white;
 }

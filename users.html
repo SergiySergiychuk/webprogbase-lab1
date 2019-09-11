@@ -8,6 +8,7 @@
     <!-- <link rel="stylesheet" href="/home/eclipse/webprogbase/labs/lab1/stylesheets/style.css"> -->
     <style>
         @import url(https://sergiysergiychuk.github.io/webprogbase-lab1/stylesheets/style.css);
+        /* @import url(/home/eclipse/webprogbase/labs/lab1/stylesheets/style.css); */
     </style>
 
 </head>
@@ -27,25 +28,25 @@
                 <b>Створи свого монстра</b>
             </div>
         </div>
-        <table id="customers">
-            <tr>
-                <th>Login</th>
-                <th>Fullname</th>
-                <th>Registered</th>
-            </tr>
-            <tr>
-                <th>User1</th>
-                <th>Гришко Іван Андрійович</th>
-                <th>20.07.2019</th>
-            </tr>
-            <tr>
-                <th>User2</th>
-                <th>Гришко Степан Андрійович</th>
-                <th>12.05.2019</th>
-            </tr>
-        </table>
+        <div id=user_table_block>
+            <table id="users_table">
+                <tr>
+                    <th>Login</th>
+                    <th>Fullname</th>
+                    <th>Registered</th>
+                </tr>
+                <tr>
+                    <th> <a id=user_link href="https://sergiysergiychuk.github.io/webprogbase-lab1/user1.html">User1</a></th>
+                    <th>Гришко Іван Андрійович</th>
+                    <th>20.07.2019</th>
+                </tr>
+                <tr>
+                    <th><a id=user_link href="https://sergiysergiychuk.github.io/webprogbase-lab1/user2.html">User2</a></th>
+                    <th>Гришко Степан Андрійович</th>
+                    <th>12.05.2019</th>
+                </tr>
+            </table>
+        </div>
 
-        <p>You cat couse user</p>
-        <a href="https://sergiysergiychuk.github.io/webprogbase-lab1/user1.html">User1</a>
-        <a href="https://sergiysergiychuk.github.io/webprogbase-lab1/user2.html">User2</a>
+
     </body>
