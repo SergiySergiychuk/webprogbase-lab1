@@ -15,7 +15,7 @@ body {
     height: 100px;
     float: right;
     text-align: center;
-    font-size: 50px;
+    font-size: 80px;
     /* margin-top: 60px; */
 }
 
@@ -40,14 +40,23 @@ body {
     height: 50px;
     padding-top: 10px;
     padding-left: 10px;
-    background-color: rgb(26, 25, 25);
+    /* background-color: rgb(150, 0, 0); */
+    background: rgb(255, 0, 0);
+    background: rgb(255, 0, 0);
+    background: rgb(255, 0, 0);
+    background: linear-gradient(90deg, rgba(255, 0, 0, 0.9766281512605042) 0%, rgba(190, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 72%);
     text-align: left;
 }
 
 #home_text {
-    width: 900px;
+    background-color: rgb(151, 151, 151);
     color: rgb(0, 0, 0);
     float: right;
+    padding: 1%;
+    border: 6px solid white;
+    width: 77%;
+    padding: 2%;
+    text-align: justify;
 }
 
 #users_table th {
@@ -76,4 +85,30 @@ body {
 #user_link {
     text-decoration: none;
     color: white;
+}
+
+.user_info {
+    background: rgb(181, 0, 0);
+    background: rgb(181, 0, 0);
+    background: linear-gradient(180deg, rgba(181, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 47%, rgba(0, 0, 0, 1) 73%, rgba(156, 0, 0, 1) 100%, rgba(156, 0, 0, 1) 100%);
+    padding: 5px;
+    height: 300px;
+    float: right;
+}
+
+#user1_img {
+    width: 300;
+    height: 200;
+}
+
+#login {
+    background: rgb(0, 0, 0);
+    color: white;
+    font-family: serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+#user_more_info {
+    margin-top: 150px;
 }

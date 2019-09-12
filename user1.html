@@ -7,8 +7,11 @@
     <meta name="author" content="MY NAME">
     <!-- <link rel="stylesheet" href="/home/eclipse/webprogbase/labs/lab1/stylesheets/style.css"> -->
     <style>
-        @import url(https://sergiysergiychuk.github.io/webprogbase-lab1/stylesheets/style.css);
+        /* @import url(https://sergiysergiychuk.github.io/webprogbase-lab1/stylesheets/style.css); */
+        
+        @import url(/home/eclipse/webprogbase/labs/lab1/stylesheets/style.css);
     </style>
+
 
 </head>
 
@@ -25,12 +28,15 @@
             <b>Створи свого монстра</b>
         </div>
     </div>
-    <img src="https://sergiysergiychuk.github.io/webprogbase-lab1/images/user1.png" alt="image" width="200" height="200">
-    <p>Вітаємо Іване, з поверненням.</p>
-    <p>Логін: <b>User1</b></p>
-    <p>Повне Ім'я: <b>Гришко Іван Андрійович</b></p>
-    <p>зареєстровано: <b>20.07.2019</b></p>
-    <p>Коротко про себе: <br><i>
+
+    <div class=user_info>
+        <img id=user1_img src="https://sergiysergiychuk.github.io/webprogbase-lab1/images/user1.png" alt="image">
+        <p id=login><b>User1</b></p>
+    </div>
+    <div id=user_more_info>
+
+        <p>Повне Ім'я: <b>Гришко Іван Андрійович</b></p>
+        <p>Коротко про себе: <br><i>
             Я, Гришко Іван Андрійович, народився 9 травня 1985 року в селі Лебедівка Вишгородського району Київської
             області. Українка, громадянка України.
             З вересня 1992 року до липня 2003 року навчалась у Лебедівській середній школі, де одержала атестат про
@@ -46,4 +52,8 @@
             Ні я, ні мої близькі рідні до кримінальної чи адміністративної відповідальності не притягувалися.
             Паспортні дані: серія МА№ 69334, виданий ВВС м. Вишгорода 16.10.2001.
             Домашня адреса: вул. Київська, 24, кв. 216, м. Вишгород, 52002.</i></p>
+        <p>зареєстровано: <b>20.07.2019</b></p>
+    </div>
+
+
 </body>
