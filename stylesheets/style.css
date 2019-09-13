@@ -25,7 +25,7 @@ body {
     color: white;
     font-family: serif;
     height: 110px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .menu_link {
