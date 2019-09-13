@@ -16,6 +16,7 @@ body {
     float: right;
     text-align: center;
     font-size: 250%;
+    max-height: 110px;
     /* margin-top: 60px; */
 }
 
@@ -24,6 +25,7 @@ body {
     color: white;
     font-family: serif;
     height: 110px;
+    overflow: hidden;
 }
 
 .menu_link {
